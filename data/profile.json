@@ -1,0 +1,17 @@
+
+  {
+    "firstName": "Albert",
+    "lastName": "Einstein",
+    "handle": "albertE",
+    "profilePicture": "../images/albert.jpeg",
+    "bannerPicture": "../images/emc2.jpeg",
+    "bio": "Father of Relativity",
+    "website": "youtube.com/webdevtv",
+    "location": "Boston, MA",
+    "dateOfBirth": "3/14/1879",
+    "dateJoined": "8/2009",
+    "followingCount": 312,
+    "followersCount": 180
+  }
+
+
