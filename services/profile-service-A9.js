@@ -2,10 +2,10 @@ const dao = require('../db/profile/dao')
 
 module.exports = (app) => {
     const getCurrentProfile = (req, res) => {
-        return dao.findProfileById(req.params.id)
-            .then(profile => res.json(profile));
+        return dao.findProfile()
+            .then(profile => res.json(profile[0]));
     }
-    app.get('/rest/profile/:id', getCurrentProfile)
+    app.get('/rest/profile', getCurrentProfile)
 
     const updateCurrentProfile = (req, res) => {
         let profile = {
